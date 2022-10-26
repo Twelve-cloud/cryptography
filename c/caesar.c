@@ -37,6 +37,5 @@ int main(int argc, char* argv[])
 {
     assert(strcmp(caesar_encryption("CRYptograpHY", 3), "FUBswrjudsKB") == 0);
     assert(strcmp(caesar_decryption("FUBswrjudsKB", 3), "CRYptograpHY") == 0);
-
     return 0;
 }
