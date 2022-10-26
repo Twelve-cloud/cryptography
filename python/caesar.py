@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-caesar: caesar algorithm. Formula:
+caesar: Caesar algorithm. Formula:
     1) Ek(i) = (i+k) mod 26.
     2) Dk(i) = (i+26-k) mod 26.
 """
