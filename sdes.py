@@ -290,5 +290,5 @@ if __name__ == '__main__':
 
     if sys.argv[1] == '-e':
         encrypt_file(sys.argv[2])
-    else:
+    elif sys.argv[1] == '-d':
         decrypt_file(sys.argv[2])
