@@ -1,4 +1,4 @@
-#! /usr/bin/env python3current_index
+#! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 fnv1a.py: FNV1A digest algorithm.
