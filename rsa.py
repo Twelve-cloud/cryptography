@@ -156,6 +156,6 @@ if __name__ == '__main__':
     elif sys.argv[1] == '-d':
         assert sys.argv[3]
         decrypt_file(sys.argv[2], eval(sys.argv[3]))
-    elif sys.argv[1] == '-g' and sys.argv[2] == 'sec':
+    elif sys.argv[1] == '-g' and sys.argv[2] == 'keys':
         public_key, secret_key = generate_keys()
         sys.stdout.write(f'pub: {public_key}\nsec: {secret_key}\n')

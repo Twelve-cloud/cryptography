@@ -126,6 +126,7 @@ def sign_file(filename: str, secret_key: int) -> None:
     with open(filename) as file:
         sfilename = input('Destination filename: ')
         message, r, s = sign_message(file.read(), secret_key)
+
         with open(sfilename, 'w') as sfile:
             sfile.write(f'{message}\n r={r}\n s={s}\n')
 
